@@ -15,3 +15,8 @@ pageRef = "/docs"
 [[menu.main]]
 name = "Install"
 pageRef = "/docs/installation"
+
+[params]
+[params.page]
+[params.page.tabs]
+sync = true
