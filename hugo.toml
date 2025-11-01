@@ -11,12 +11,36 @@ unsafe = true
 [[menu.main]]
 name = "Docs"
 pageRef = "/docs"
+weight = 1
 
 [[menu.main]]
 name = "Install"
 pageRef = "/docs/installation"
+weight = 2
+
+[[menu.main]]
+name = "Projects"
+pageRef = "/docs/projects"
+weight = 3
+
+[[menu.main]]
+name = "Search"
+weight = 4
+[menu.main.params]
+type = "search"
+
+[[menu.main]]
+name = "Git"
+weight = 5
+url = "https://github.com/koolkid6958/sheepitmd"
+[menu.main.params]
+icon = "git"
 
 [params]
+[params.navbar]
+displayTitle = true
+displayLogo = false
+
 [params.page]
 [params.page.tabs]
 sync = true
